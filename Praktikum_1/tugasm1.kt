@@ -4,7 +4,7 @@ fun main() {
 
     val grade = if (nilai in 80..100) {
         "A"
-    } else if (nilai in 60..78) {
+    } else if (nilai in 60..79) {
         "B"
     } else if (nilai in 50..59) {
         "C"
