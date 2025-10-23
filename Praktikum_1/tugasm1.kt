@@ -11,6 +11,5 @@ fun main() {
     } else {
         "D"
     }
-
     println("Nilai akhir siswa adalah: $grade")
 }
