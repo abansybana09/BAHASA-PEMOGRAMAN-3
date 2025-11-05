@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg1"
+        android:contentDescription="@null" />
+
+    <!-- Outline Layer for Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="3dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-3dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationY="3dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationY="-3dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="2.5dp"
+        android:translationY="2.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-2.5dp"
+        android:translationY="2.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="2.5dp"
+        android:translationY="-2.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-2.5dp"
+        android:translationY="-2.5dp" />
+
+    <!-- Main Text for Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-20dp"
+        android:text="Login Untuk
+Belajar Wudhu"
+        android:textAlignment="center"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Outline Layer for Username -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignStart="@id/username_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="1.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignStart="@id/username_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="-1.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignStart="@id/username_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="1.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignStart="@id/username_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="-1.5dp" />
+
+    <!-- Main Text for Username -->
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignStart="@id/username_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:text="Username"
+        android:textColor="#004C41"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/username_label"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_edit_text_background"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/baloo"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:autofillHints="username" />
+
+    <!-- Outline Layer for Password -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_field"
+        android:layout_alignStart="@id/password_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="1.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_field"
+        android:layout_alignStart="@id/password_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="-1.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_field"
+        android:layout_alignStart="@id/password_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="1.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_field"
+        android:layout_alignStart="@id/password_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="-1.5dp" />
+
+    <!-- Main Text for Password -->
+    <TextView
+        android:id="@+id/password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_field"
+        android:layout_alignStart="@id/password_field"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:text="Password"
+        android:textColor="#004C41"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/password_label"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_edit_text_background"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/baloo"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:autofillHints="password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login_button_background"
+        android:fontFamily="@font/baloo"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="Login"
+        android:textColor="#004C41"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

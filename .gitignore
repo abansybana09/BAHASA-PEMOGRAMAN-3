@@ -1,0 +1,52 @@
+# Android/IntelliJ/Gradle ignores
+
+# Gradle
+.gradle/
+**/build/
+build/
+
+# Local configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files
+*.keystore
+*.jks
+keystore/
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# NDK
+.externalNativeBuild
+.cxx
+
+# Misc
+captures/
+.DS_Store
+
+# Ignore local.properties for SDK path, and any user-specific files
+/local.properties
+
+# Kotlin/Java
+*.class
+
+# Gradle wrapper
+gradle-wrapper.jar
+
+# Log files
+*.log
+
+# Others
+.vscode/
+
+# Don't accidentally add build outputs from Android Studio projects
+**/build/
+

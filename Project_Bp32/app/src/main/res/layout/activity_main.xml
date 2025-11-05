@@ -1,0 +1,151 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <!-- Outline Layer (8 TextViews for a smoother, thicker stroke) -->
+    <!-- Straight -->
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="4dp" />
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-4dp" />
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationY="4dp" />
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationY="-4dp" />
+
+    <!-- Diagonal -->
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="3dp"
+        android:translationY="3dp" />
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-3dp"
+        android:translationY="3dp" />
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="3dp"
+        android:translationY="-3dp" />
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#004C41"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-3dp"
+        android:translationY="-3dp" />
+
+    <!-- Main Text Layer (On Top) -->
+    <TextView
+        android:id="@+id/ra8cbnzwqw5t"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Belajar Wudhu 
+Bareng Yuk!!"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rudkemul8jcl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ra8cbnzwqw5t"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/button_background"
+        android:paddingLeft="63dp"
+        android:paddingTop="7dp"
+        android:paddingRight="75dp"
+        android:paddingBottom="7dp"
+        android:text="Mulai"
+        android:textColor="#004C41"
+        android:fontFamily="@font/baloo"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
