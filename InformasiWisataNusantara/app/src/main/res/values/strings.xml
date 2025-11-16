@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Informasi Wisata Nusantara</string>
+
+    <string-array name="data_name">
+        <item>Candi Borobudur</item>
+        <item>Raja Ampat</item>
+        <item>Gunung Bromo</item>
+        <item>Danau Toba</item>
+        <item>Pulau Komodo</item>
+        <item>Candi Prambanan</item>
+        <item>Tana Toraja</item>
+        <item>Labuan Bajo</item>
+        <item>Gunung Rinjani</item>
+        <item>Kawah Ijen</item>
+    </string-array>
+
+    <string-array name="data_location">
+        <item>Magelang, Jawa Tengah</item>
+        <item>Papua Barat</item>
+        <item>Jawa Timur</item>
+        <item>Sumatera Utara</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Yogyakarta</item>
+        <item>Sulawesi Selatan</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Lombok, NTB</item>
+        <item>Banyuwangi, Jawa Timur</item>
+    </string-array>
+
+    <string-array name="data_ticket_price">
+        <item>Rp 50.000</item>
+        <item>Rp 1.000.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 250.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 150.000</item>
+        <item>Rp 150.000 (Pendakian)</item>
+        <item>Rp 100.000</item>
+    </string-array>
+
+    <string-array name="data_rating">
+        <item>4.8</item>
+        <item>4.9</item>
+        <item>4.7</item>
+        <item>4.6</item>
+        <item>4.8</item>
+        <item>4.8</item>
+        <item>4.7</item>
+        <item>4.9</item>
+        <item>4.8</item>
+        <item>4.7</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Candi Borobudur adalah sebuah candi Buddha Mahayana abad ke-9 di Magelang, Jawa Tengah, Indonesia. Monumen ini terdiri atas sembilan teras berundak, enam teras berbentuk bujur sangkar dan tiga teras berbentuk bundar, dengan sebuah stupa utama di puncaknya.</item>
+        <item>Kepulauan Raja Ampat adalah gugusan kepulauan yang berlokasi di barat bagian Semenanjung Kepala Burung (Vogelkoop) Pulau Papua. Secara administrasi, gugusan ini berada di bawah Kabupaten Raja Ampat, Provinsi Papua Barat Daya.</item>
+        <item>Gunung Bromo atau dalam bahasa Tengger dieja "Brama", adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.329 meter di atas permukaan laut dan berada dalam empat wilayah kabupaten, yakni Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, dan Kabupaten Malang.</item>
+        <item>Danau Toba adalah danau alami besar di Indonesia yang berada di kaldera gunung supervulkan. Danau ini memiliki panjang 100 kilometer, lebar 30 kilometer, dan kedalaman 505 meter. Danau ini terletak di tengah pulau Sumatra bagian utara dengan ketinggian permukaan sekitar 900 meter.</item>
+        <item>Pulau Komodo adalah sebuah pulau yang terletak di Kepulauan Nusa Tenggara, berada di sebelah timur Pulau Sumbawa, yang dipisahkan oleh Selat Sape. Pulau Komodo dikenal sebagai habitat asli hewan komodo.</item>
+        <item>Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi.</item>
+        <item>Tana Toraja adalah dataran tinggi di Sulawesi Selatan yang terkenal dengan ritual pemakamannya yang unik dan rumah adat Tongkonan.</item>
+        <item>Labuan Bajo adalah sebuah kota nelayan yang terletak di ujung barat Pulau Flores di provinsi Nusa Tenggara Timur, gerbang menuju Taman Nasional Komodo.</item>
+        <item>Gunung Rinjani adalah gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 mdpl, serta menjadi favorit para pendaki karena keindahan pemandangannya.</item>
+        <item>Kawah Ijen adalah sebuah danau kawah asam yang berada di puncak Gunung Ijen. Kawah ini terkenal dengan fenomena api biru atau blue fire yang langka.</item>
+    </string-array>
+
+    <string-array name="data_operational_hours">
+        <item>06:30 - 17:00</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>07:00 - 17:00</item>
+        <item>06:30 - 17:00</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam (Pendakian)</item>
+        <item>02:00 - 12:00</item>
+    </string-array>
+
+    <array name="data_image">
+        <item>@drawable/wisataborobudur</item>
+        <item>@drawable/ampat</item>
+        <item>@drawable/gunungbromo</item>
+        <item>@drawable/danautoba</item>
+        <item>@drawable/pulaukomodo</item>
+        <item>@drawable/cprambanan</item>
+        <item>@drawable/ttoraja</item>
+        <item>@drawable/lbajo</item>
+        <item>@drawable/grinjani</item>
+        <item>@drawable/kijen</item>
+    </array>
+</resources>

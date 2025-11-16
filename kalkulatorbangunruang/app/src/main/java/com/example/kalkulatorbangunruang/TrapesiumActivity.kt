@@ -15,16 +15,16 @@ class TrapesiumActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_trapesium)
 
-        val sisiAtas = findViewById<EditText>(R.id.edt_sisi_atas)
-        val sisiBawah = findViewById<EditText>(R.id.edt_sisi_bawah)
-        val tinggi = findViewById<EditText>(R.id.edt_tinggi)
-        val btnHitung = findViewById<Button>(R.id.button)
+        val edtSisiAtas = findViewById<EditText>(R.id.edt_sisi_atas)
+        val edtSisiBawah = findViewById<EditText>(R.id.edt_sisi_bawah)
+        val edtTinggi = findViewById<EditText>(R.id.edt_tinggi)
+        val btnHitung = findViewById<Button>(R.id.btn_hitung)
         val hasil = findViewById<TextView>(R.id.hasil)
 
         btnHitung.setOnClickListener {
-            val sisiAtasValue = sisiAtas.text.toString().toDouble()
-            val sisiBawahValue = sisiBawah.text.toString().toDouble()
-            val tinggiValue = tinggi.text.toString().toDouble()
+            val sisiAtasValue = edtSisiAtas.text.toString().toDouble()
+            val sisiBawahValue = edtSisiBawah.text.toString().toDouble()
+            val tinggiValue = edtTinggi.text.toString().toDouble()
             val luas = 0.5 * (sisiAtasValue + sisiBawahValue) * tinggiValue
             hasil.text = luas.toString()
         }

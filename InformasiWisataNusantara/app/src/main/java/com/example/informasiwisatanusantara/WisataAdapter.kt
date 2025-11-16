@@ -38,7 +38,7 @@ class WisataAdapter(private val listWisata: ArrayList<Wisata>) : RecyclerView.Ad
         var tvLocation: TextView = itemView.findViewById(R.id.tv_lokasi)
     }
 
-    interface OnItemClickCallback {
+    fun interface OnItemClickCallback {
         fun onItemClicked(data: Wisata)
     }
 }

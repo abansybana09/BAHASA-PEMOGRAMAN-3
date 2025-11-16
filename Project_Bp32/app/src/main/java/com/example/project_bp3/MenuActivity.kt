@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 
 class MenuActivity : AppCompatActivity() {
@@ -17,21 +18,34 @@ class MenuActivity : AppCompatActivity() {
 
         val exitButton = findViewById<ImageButton>(R.id.exit_button)
         exitButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
             finish()
         }
 
         val beforeWudhuButton = findViewById<ImageButton>(R.id.before_wudhu_button)
         val learnWudhuButton = findViewById<ImageButton>(R.id.learn_wudhu_button)
         val afterWudhuButton = findViewById<ImageButton>(R.id.after_wudhu_button)
+        val panduanButton = findViewById<ImageView>(R.id.panduan_button) // Assuming you changed the id in xml
 
-        // Menambahkan listener untuk tombol "Do'a Sesudah Wudhu"
+        beforeWudhuButton.setOnClickListener {
+            val intent = Intent(this, SebelumWudhuActivity::class.java)
+            startActivity(intent)
+        }
 
+        afterWudhuButton.setOnClickListener {
+            val intent = Intent(this, SesudahWudhuActivity::class.java)
+            startActivity(intent)
+        }
 
-        // TODO: Anda bisa menambahkan listener untuk dua tombol lainnya di sini
-        // Contoh untuk tombol "Belajar Wudhu":
-        // learnWudhuButton.setOnClickListener {
-        //     val intent = Intent(this, BelajarWudhuActivity::class.java)
-        //     startActivity(intent)
-        // }
+        learnWudhuButton.setOnClickListener {
+            val intent = Intent(this, BelajarWudhuActivity::class.java)
+            startActivity(intent)
+        }
+
+        panduanButton.setOnClickListener {
+            val intent = Intent(this, PanduanWudhuActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

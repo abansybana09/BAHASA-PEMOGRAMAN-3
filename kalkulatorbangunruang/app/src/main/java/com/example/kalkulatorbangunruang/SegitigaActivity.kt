@@ -15,14 +15,14 @@ class SegitigaActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_segitiga)
 
-        val alas = findViewById<EditText>(R.id.edt_alas)
-        val tinggi = findViewById<EditText>(R.id.edt_tinggi)
-        val btnHitung = findViewById<Button>(R.id.button)
+        val edtAlas = findViewById<EditText>(R.id.edt_alas)
+        val edtTinggi = findViewById<EditText>(R.id.edt_tinggi)
+        val btnHitung = findViewById<Button>(R.id.btn_hitung)
         val hasil = findViewById<TextView>(R.id.hasil)
 
         btnHitung.setOnClickListener {
-            val alasValue = alas.text.toString().toDouble()
-            val tinggiValue = tinggi.text.toString().toDouble()
+            val alasValue = edtAlas.text.toString().toDouble()
+            val tinggiValue = edtTinggi.text.toString().toDouble()
             val luas = 0.5 * alasValue * tinggiValue
             hasil.text = luas.toString()
         }

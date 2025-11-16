@@ -15,12 +15,12 @@ class LingkaranActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_lingkaran)
 
-        val jariJari = findViewById<EditText>(R.id.edt_jari_jari)
-        val btnHitung = findViewById<Button>(R.id.button)
+        val edtJariJari = findViewById<EditText>(R.id.edt_jari_jari)
+        val btnHitung = findViewById<Button>(R.id.btn_hitung)
         val hasil = findViewById<TextView>(R.id.hasil)
 
         btnHitung.setOnClickListener {
-            val jariJariValue = jariJari.text.toString().toDouble()
+            val jariJariValue = edtJariJari.text.toString().toDouble()
             val luas = Math.PI * jariJariValue * jariJariValue
             hasil.text = luas.toString()
         }

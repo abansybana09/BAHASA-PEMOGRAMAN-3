@@ -29,6 +29,33 @@
         <activity
             android:name=".DoaSesudahActivity"
             android:exported="false" />
+        <activity
+            android:name=".SebelumWudhuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SesudahWudhuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BelajarWudhuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PanduanWudhuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengertianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KapanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmalanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BatalActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

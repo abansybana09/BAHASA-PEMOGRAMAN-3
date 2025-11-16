@@ -16,58 +16,203 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/back" />
 
-    <TextView
-        android:id="@+id/title"
+    <RelativeLayout
+        android:id="@+id/title_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:text="Do'a Sebelum Wudhu"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="100dp">
+
+        <!-- Stroke Layer (White) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="-3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationY="3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationY="-3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="2.5dp"
+            android:translationY="2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="-2.5dp"
+            android:translationY="-2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="2.5dp"
+            android:translationY="-2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="-2.5dp"
+            android:translationY="2.5dp" />
+
+        <!-- Main Text (Green) -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do\'a Sebelum\nWudhu"
+            android:textColor="#008000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/cloud"
-        android:layout_width="350dp"
-        android:layout_height="200dp"
-        android:layout_below="@id/title"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/title_container"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="3dp"
         android:src="@drawable/awan" />
 
-    <TextView
-        android:id="@+id/arabic_prayer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
         android:layout_alignTop="@id/cloud"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى"
-        android:textColor="@android:color/black"
-        android:textSize="20sp" />
+        android:layout_alignStart="@id/cloud"
+        android:layout_alignEnd="@id/cloud"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="100dp"
+        android:scrollbars="none">
 
-    <TextView
-        android:id="@+id/latin_prayer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/arabic_prayer"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="\"Nawaitul whuduua liraf'il hadatsil ashghori fardhal lillaahi ta'aalaa\""
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
-        android:textStyle="italic" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Arabic Prayer with Smoother Proportional Stroke -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Stroke Layer -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="-2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationY="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationY="-2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="1.5dp" android:translationY="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="-1.5dp" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="1.5dp" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="-1.5dp" android:translationY="1.5dp"/>
+                <!-- Main Text -->
+                <TextView android:id="@+id/arabic_prayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ الْاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالٰى" android:textColor="@android:color/white" android:textSize="22sp" android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <!-- Latin Prayer with Proportional Stroke -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <!-- Stroke Layer -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationY="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="1dp"/>
+                <!-- Main Text -->
+                <TextView android:id="@+id/latin_prayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="&quot;Nawaitul wudhuu-a liraf'il hadatsil ashghari fardhal lillaahi ta'aalaa&quot;" android:textColor="@android:color/white" android:textSize="16sp" android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+            <!-- Translation with Proportional Stroke -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <!-- Stroke Layer -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationY="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="1dp"/>
+                <!-- Main Text -->
+                <TextView android:id="@+id/translation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah Ta'ala." android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
     <ImageView
         android:id="@+id/praying_person"
-        android:layout_width="200dp"
-        android:layout_height="300dp"
+        android:layout_width="250dp"
+        android:layout_height="430dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
         android:src="@drawable/berdoa" />
 
 </RelativeLayout>
