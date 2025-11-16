@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".SesudahWudhuActivity">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/back" />
+
+    <RelativeLayout
+        android:id="@+id/title_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <!-- Stroke Layer (White) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="-3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationY="3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationY="-3dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="2.5dp"
+            android:translationY="2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="-2.5dp"
+            android:translationY="-2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="2.5dp"
+            android:translationY="-2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="-2.5dp"
+            android:translationY="2.5dp" />
+
+        <!-- Main Text (Green) -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="Do'a Sesudah
+Wudhu"
+            android:textColor="#008000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/title_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/img_2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_alignTop="@id/cloud"
+        android:layout_alignStart="@id/cloud"
+        android:layout_alignEnd="@id/cloud"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="100dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Arabic Prayer with Smoother Proportional Stroke -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Stroke Layer -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="-2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُtathahhiriin." android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationY="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationY="-2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="1.5dp" android:translationY="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="-1.5dp" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="1.5dp" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّdًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="#004C41" android:textSize="22sp" android:textStyle="bold" android:translationX="-1.5dp" android:translationY="1.5dp"/>
+                <!-- Main Text -->
+                <TextView android:id="@+id/arabic_prayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ" android:textColor="@android:color/white" android:textSize="22sp" android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <!-- Latin Prayer with Proportional Stroke -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <!-- Stroke Layer -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationY="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="#004C41" android:textSize="16sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="1dp"/>
+                <!-- Main Text -->
+                <TextView android:id="@+id/latin_prayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="'''Asyhadu an laa ilaaha illallaahu wahdahuu laa syariika lah, wa asyhadu anna muhammadan 'abduhuu wa rasuuluh. Allaahummaj'alnii minat tawwaabiina waj'alnii minal mutathahhiriin.'''" android:textColor="@android:color/white" android:textSize="16sp" android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+            <!-- Translation with Proportional Stroke -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <!-- Stroke Layer -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationY="1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationY="-1.5dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="1dp" android:translationY="-1dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="#004C41" android:textSize="14sp" android:textStyle="bold|italic" android:translationX="-1dp" android:translationY="1dp"/>
+                <!-- Main Text -->
+                <TextView android:id="@+id/translation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/baloo" android:gravity="center" android:text="Artinya: Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci." android:textColor="@android:color/white" android:textSize="14sp" android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
